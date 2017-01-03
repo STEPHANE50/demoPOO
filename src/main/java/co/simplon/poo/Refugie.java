@@ -14,6 +14,8 @@ public class Refugie extends Personne {
 		this.dateLimiteAutorisation = dateLimiteAutorisation;
 	}
 	
+	
+	
 	public void demanderAsile(Adresse adresseAssignation) {
 		Date dateCourante = new Date();
 		if (adresseAssignation != null) {
